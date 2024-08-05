@@ -25,7 +25,7 @@ def solve_dependencies(module_name,download_url=None):
 		from pipper import pip_install_module
 	except:
 		print ("[!] pipper not found in the current directory.. Downloading pipper..")
-		download("https://raw.githubusercontent.com/D35m0nd142/LFISuite/master/pipper.py","pipper.py")
+		download("https://github.com/Sohanur99/custome-LFIsuite/blob/main/pipper.py","pipper.py")
 		from pipper import pip_install_module
 
 	if(download_url is not None):
